@@ -12,6 +12,7 @@
 
   &__button-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
@@ -22,5 +23,6 @@
     padding: 0 0.9rem;
     line-height: 1.365rem;
     font-weight: 400;
+    cursor: pointer;
   }
 }
