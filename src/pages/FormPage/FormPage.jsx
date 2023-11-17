@@ -33,7 +33,7 @@ export default function FormPage() {
             options={["Sun Seeker", "Mild Marvel", "Winter Wonderland"]}
           />
           <OptionCard
-            topic="City Chic or Remote Retreat"
+            topic="Passionate Pursuits"
             options={[
               "Culinary Connoisseur",
               "Art Admirer",
@@ -44,7 +44,7 @@ export default function FormPage() {
             ]}
           />
           <OptionCard
-            topic="Flight Connection Conundrum"
+            topic="City Chic or Remote Retreat"
             options={[
               "City Slicker",
               "Countryside Charmer",
@@ -55,7 +55,7 @@ export default function FormPage() {
             ]}
           />
           <OptionCard
-            topic="Passionate Pursuits"
+            topic="Flight Connection Conundrum"
             options={[
               "Direct Diva",
               "Layover Lover",
