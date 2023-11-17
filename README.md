@@ -14,6 +14,8 @@
 - Olusanya (Software Engineer)
 - Gabrielle (Software Engineer)
 
-[Figma]("https://www.figma.com/file/ctV4YkyRHigq0LlicBlUzm/Draft-BA-low-fi?mode=dev")
+[Figjam](https://www.figma.com/file/Dri1Q6HsuxqT4qS5P7sGK5/Aero-Dynamic-Playground?type=whiteboard&node-id=3-123&t=dYsrBeBykxQnBybY-0)
 
-[Figma Slide Deck]("https://www.figma.com/file/jmcksVBWjZEAc1VSuEeLAA/BA-Pitch-Slides?type=design&node-id=0-1&mode=design&t=nE3T9N92aNbPYOXD-0")
+[Figma](https://www.figma.com/file/ctV4YkyRHigq0LlicBlUzm/Draft-BA-low-fi?mode=dev)
+
+[Figma Slide Deck](https://www.figma.com/file/jmcksVBWjZEAc1VSuEeLAA/BA-Pitch-Slides?type=design&node-id=0-1&mode=design&t=nE3T9N92aNbPYOXD-0)
