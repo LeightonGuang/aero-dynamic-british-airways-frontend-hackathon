@@ -3,6 +3,7 @@
 @mixin pill {
   border: 1px solid $text-colour;
   background: none;
+  background-color: white;
   border-radius: 6.25rem;
   padding: 0 0.9rem;
   line-height: 1.365rem;
