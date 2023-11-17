@@ -19,8 +19,8 @@ const SuggestionCard = () => {
           <p className="flight__time">2 hours 05 minutes</p>
           <p className="flight__connection">Direct</p>
           <div>
-            <p className="flight__reason">Because you selected</p>
-            <p className="flight__pick">Warm, Nightlife, City</p>
+            <p className="flight__reason reduce">Because you selected</p>
+            <p className="flight__pick reduced">Warm, Nightlife, City</p>
             <ul className="flight__list">
               <li className="flight__pick">Warm wetaher in May</li>
               <li className="flight__pick">
@@ -32,13 +32,13 @@ const SuggestionCard = () => {
             </ul>
           </div>
           <div>
-            <p className="flight__reason">Included in your voucher:</p>
+            <p className="flight__reason reduce">Included in your voucher:</p>
             <ul className="flight__list">
               <li className="flight__pick">Flight</li>
             </ul>
           </div>
           <div>
-            <p className="flight__reason">Available Add Ons</p>
+            <p className="flight__reason reduce">Available Add Ons</p>
             <ul className="flight__list">
               <li className="flight__pick">Seat Selection</li>
               <li className="flight__pick">Extra baggage</li>
