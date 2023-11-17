@@ -1,0 +1,26 @@
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.weather {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 1.25rem;
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__button {
+    border: 1px solid black;
+    background: none;
+    border-radius: 6.25rem;
+    padding: 0 0.9rem;
+    line-height: 1.365rem;
+    font-weight: 400;
+  }
+}
