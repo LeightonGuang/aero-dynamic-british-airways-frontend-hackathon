@@ -1,7 +1,7 @@
 import "./Header.scss";
 import BaLogo from "../../assets/logos/british-airways-logo.svg";
-
-import { FaBars } from "react-icons/fa";
+import searchIcon from "../../assets/icons/search.svg";
+import menuIcon from "../../assets/icons/hamburger.svg";
 
 import React from "react";
 
@@ -21,16 +21,21 @@ const Header = () => {
           <img className="header__logo-logo" src={BaLogo} alt="BA Logo" />
         </a>
       </div>
-
-      <div>
-        {/* Hamburger menu icon */}
-        <button
-          className="header__button"
-          aria-label="Open menu"
-          style={{ cursor: "pointer" }}
-        >
-          <FaBars />
-        </button>
+      <div className="header__nav-buttons">
+        <div>
+          <button className="header__button">
+            <img src={searchIcon} alt="" />
+          </button>
+        </div>
+        <div>
+          <button
+            className="header__button header__button--search"
+            aria-label="Open menu"
+            style={{ cursor: "pointer" }}
+          >
+            <img src={menuIcon} alt="" />
+          </button>
+        </div>
       </div>
     </header>
   );
