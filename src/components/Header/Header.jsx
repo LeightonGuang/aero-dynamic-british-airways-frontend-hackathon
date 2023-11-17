@@ -17,7 +17,9 @@ const Header = () => {
       }}
     >
       <div className="header__logo-div">
-        <img className="header__logo-logo" src={BaLogo} alt="BA Logo" />
+        <a href="/" className="header__link">
+          <img className="header__logo-logo" src={BaLogo} alt="BA Logo" />
+        </a>
       </div>
 
       <div>
