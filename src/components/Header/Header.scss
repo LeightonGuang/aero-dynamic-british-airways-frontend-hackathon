@@ -1,0 +1,46 @@
+.header {
+  height: 59px;
+  width: 400;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  &__logo-div {
+    height: 4rem;
+    width: 30%;
+    padding-top: 1.4rem;
+  }
+  &__logo-logo {
+    width: 100%;
+    max-width: 10rem;
+  }
+
+  &__nav-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
+  &__img {
+    height: 4rem;
+    margin: 1rem;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    cursor: "pointer";
+    margin: 1rem;
+
+    &:hover {
+      color: blue;
+    }
+
+    &--search {
+      padding-top: 0.4rem;
+    }
+  }
+}

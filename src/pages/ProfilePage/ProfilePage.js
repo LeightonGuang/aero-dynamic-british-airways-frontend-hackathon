@@ -11,29 +11,31 @@ export default function ProfilePage() {
           <h1 className="profile__voucher">Here are your voucher details:</h1>
         </div>
         <div className="profile__details">
-          <div className="profile__passenger-details">
-            <div className="profile__passenger-info">
-              <div className="profile__passenger-name">
-                <p className="profile__heading">Passenger Name:</p>
-                <p className="profile__description">John Smith</p>
+          <div className="profile__wrapper-container">
+            <div className="profile__passenger-details">
+              <div className="profile__passenger-info">
+                <div className="profile__passenger-name">
+                  <p className="profile__heading">Passenger Name:</p>
+                  <p className="profile__description">John Smith</p>
+                </div>
+                <div className="profile__voucher-value">
+                  <p className="profile__heading">Voucher Value:</p>
+                  <p className="profile__description">£300</p>
+                </div>
               </div>
-              <div className="profile__voucher-value">
-                <p className="profile__heading">Voucher Value:</p>
-                <p className="profile__description">£300</p>
+              <div className="profile__original-depature">
+                <p className="profile__heading">Original Depature:</p>
+                <p className="profile__description">June 16 2020</p>
               </div>
-            </div>
-            <div className="profile__original-depature">
-              <p className="profile__heading">Original Depature:</p>
-              <p className="profile__description">June 16 2020</p>
-            </div>
-            <div className="profile__voucher-info">
-              <div className="profile__voucher-expiry">
-                <p className="profile__heading">Voucher Expiry Date:</p>
-                <p className="profile__description">June 16, 2020</p>
-              </div>
-              <div className="profile__voucher-number">
-                <p className="profile__heading">Vouher No.</p>
-                <p className="profile__description">June 16, 2020</p>
+              <div className="profile__voucher-info">
+                <div className="profile__voucher-expiry">
+                  <p className="profile__heading">Voucher Expiry Date:</p>
+                  <p className="profile__description">June 16, 2020</p>
+                </div>
+                <div className="profile__voucher-number">
+                  <p className="profile__heading">Vouher No.</p>
+                  <p className="profile__description">June 16, 2020</p>
+                </div>
               </div>
             </div>
           </div>
@@ -44,7 +46,7 @@ export default function ProfilePage() {
             <p className="profile__find">
               Use our 'find my perfect destination' tool and we'll do the rest
             </p>
-            <Link to="/form">
+            <Link to="/form" className="profile__link">
               <div className="profile__btn-container">
                 <button className="profile__btn">Find Me A Flight</button>
               </div>
