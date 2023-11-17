@@ -4,8 +4,9 @@
 @use "../../styles/partials/mixins.scss" as *;
 
 .card {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  // margin-top: 1.5rem;
+  // margin-bottom: 1.5rem;
+  margin: 0;
   border: 1px solid lightgrey;
   &__image {
     width: 100%;
@@ -22,12 +23,13 @@
 }
 
 .ba-bg {
+  margin-top: -0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   // border: 1px solid green;
   padding: 0 1.5rem;
-  margin: 0;
+  // margin: 0;
   background-color: lightgray;
 }
 
