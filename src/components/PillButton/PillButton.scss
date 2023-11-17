@@ -20,8 +20,11 @@
 
   &__button {
     @include pill;
-    :active {
-      background-color: blue;
+
+    &--selected {
+      @include pill;
+      background-color: $text-colour;
+      color: white;
     }
   }
 }
