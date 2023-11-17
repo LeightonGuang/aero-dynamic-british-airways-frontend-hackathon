@@ -1,4 +1,4 @@
-import SuggestionCard from "../../SuggestionCard/SuggestionCard";
+import SuggestionCard from "../../components/SuggestionCard/SuggestionCard";
 import "./ResultPage.scss";
 
 const ResultPage = () => {
