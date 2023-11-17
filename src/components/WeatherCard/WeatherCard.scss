@@ -1,0 +1,33 @@
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.weather {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  &__button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  &__button {
+    @include pill;
+
+    &:hover {
+      background-color: $button-primary-hover-colour;
+    }
+
+    &--selected {
+      background-color: $text-colour;
+      color: white;
+    }
+  }
+}
