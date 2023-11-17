@@ -15,6 +15,12 @@
     max-width: 10rem;
   }
 
+  &__nav-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
   &__img {
     height: 4rem;
     margin: 1rem;
@@ -25,11 +31,16 @@
     border: none;
     padding: 0;
     margin: 0;
-    font-size: 35px;
+    font-size: 22px;
     cursor: "pointer";
+    margin: 1rem;
 
     &:hover {
       color: blue;
+    }
+
+    &--search {
+      padding-top: 0.4rem;
     }
   }
 }
