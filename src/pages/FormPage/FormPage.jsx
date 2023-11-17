@@ -11,9 +11,11 @@ export default function FormPage() {
         <CalendarCard />
 
         <div className="form__title-container">
-          <h1 className="form__title">Tell us more about your flight</h1>
+          <h1 className="form__title">Ready for takeoff?</h1>
           <p className="form__title-description">
-            Select at least 3 options from each category
+            Choose at least one option from each category below to help us
+            tailor your flight experience Don't worry, it's as easy as picking
+            your favorite travel buddy. Bon voyage!
           </p>
         </div>
 
