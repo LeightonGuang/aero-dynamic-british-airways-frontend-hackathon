@@ -7,7 +7,7 @@ function LandingPage() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigate("/form");
+      navigate("/profile");
     }, 1500); // 5000 ms = 5 seconds
 
     return () => clearTimeout(timer); // Cleanup the timeout on component unmount
