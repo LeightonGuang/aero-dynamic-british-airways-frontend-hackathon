@@ -1,4 +1,5 @@
 import FlightDurationCard from "../../components/FlightDurationCard/FlightDurationCard";
+import WeatherCard from "../../components/WeatherCard/WeatherCard";
 import "./ResultPage.scss";
 
 export default function ResultPage() {
@@ -17,6 +18,7 @@ export default function ResultPage() {
         </div>
 
         <FlightDurationCard />
+        <WeatherCard/>
       </div>
     </div>
   );
