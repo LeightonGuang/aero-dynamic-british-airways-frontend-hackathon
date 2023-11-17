@@ -4,6 +4,7 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import FormPage from "./pages/FormPage/FormPage";
 import ResultPage from "./pages/ResultPage/ResultPage";
 import TestPage from "./pages/TestPageAfterLanding/TestPage";
+import "./App.scss";
 
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 
@@ -16,9 +17,8 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/" element={<LandingPage />} />
-
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/form" element={<FormPage />} />
           <Route path="/results" element={<ResultPage />} />
           <Route path="/form" element={<TestPage />} />

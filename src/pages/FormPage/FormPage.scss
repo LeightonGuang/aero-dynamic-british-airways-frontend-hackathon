@@ -1,4 +1,4 @@
-.result {
+.form {
   &__container {
     padding: 0 2rem;
   }
@@ -28,5 +28,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 2rem;
   }
+}
+
+.profile__btn-container{
+  margin-bottom: 2rem;
 }
