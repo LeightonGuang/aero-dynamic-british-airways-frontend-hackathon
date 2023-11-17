@@ -1,0 +1,24 @@
+@use "../../styles/partials/mixins.scss";
+@use "../../styles/partials/typography.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+
+.results {
+  border: 1px solid red;
+  padding: 0 1rem;
+  margin-top: 3.6875rem;
+
+  &__title {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: $text-colour;
+  }
+
+  &__description {
+    font-size: 0.8125rem;
+    margin: 0;
+    color: $text-colour;
+  }
+}
