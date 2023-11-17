@@ -6,13 +6,13 @@
 
 ### Team members
 
-- Edo (Data Scientist)
-- Melicia (UX Designer)
-- Mila (UX Designer)
-- Leighton (Software Engineer)
-- Zeid (Software Engineer)
-- Olusanya (Software Engineer)
-- Gabrielle (Software Engineer)
+- Edo Spiegel Emmerich (Data Scientist)
+- Melicia Chivers (UX Designer)
+- Mila Scott (UX Designer)
+- Leighton Guang (Software Engineer)
+- Zeid Bsaibes (Software Engineer)
+- Olusanya Jegede (Software Engineer)
+- Gabrielle Asante (Software Engineer)
 
 [Figjam](https://www.figma.com/file/Dri1Q6HsuxqT4qS5P7sGK5/Aero-Dynamic-Playground?type=whiteboard&node-id=3-123&t=dYsrBeBykxQnBybY-0)
 
