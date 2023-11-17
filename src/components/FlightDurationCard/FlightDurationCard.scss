@@ -19,12 +19,6 @@
   }
 
   &__button {
-    border: 1px solid black;
-    background: none;
-    border-radius: 6.25rem;
-    padding: 0 0.9rem;
-    line-height: 1.365rem;
-    font-weight: 400;
-    cursor: pointer;
+    @include pill;
   }
 }
