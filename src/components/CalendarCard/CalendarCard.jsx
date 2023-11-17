@@ -45,9 +45,7 @@ export default function CalendarCard() {
                     alt="calendar icon"
                     className="calendar__dropdown--calendar-icon"
                   />
-                  <span className="calendar__dropdown--text">
-                    18 November 2023
-                  </span>
+                  <span className="calendar__dropdown--text">18 May 2024</span>
                 </div>
               </div>
               {/* return dropdown */}
@@ -59,9 +57,7 @@ export default function CalendarCard() {
                     alt="calendar icon"
                     className="calendar__dropdown--calendar-icon"
                   />
-                  <span className="calendar__dropdown--text">
-                    30 November 2023
-                  </span>
+                  <span className="calendar__dropdown--text">22 May 2024</span>
                 </div>
               </div>
             </div>
