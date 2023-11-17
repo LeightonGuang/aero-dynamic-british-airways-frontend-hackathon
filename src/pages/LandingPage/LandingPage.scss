@@ -1,0 +1,35 @@
+.landing {
+  display: flex;
+  max-width: 25rem;
+  display: flex;
+  padding: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  &__logo-container {
+    display: flex;
+  }
+
+  &__logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__logo {
+    max-width: 18.75rem;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeout {
+  animation: fadeOut 1s ease-out forwards;
+}
