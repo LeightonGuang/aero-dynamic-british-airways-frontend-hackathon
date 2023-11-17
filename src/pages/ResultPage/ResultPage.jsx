@@ -17,8 +17,10 @@ export default function ResultPage() {
           </p>
         </div>
 
-        <FlightDurationCard />
-        <WeatherCard/>
+        <div className="result__option-container">
+          <FlightDurationCard />
+          <WeatherCard />
+        </div>
       </div>
     </div>
   );
