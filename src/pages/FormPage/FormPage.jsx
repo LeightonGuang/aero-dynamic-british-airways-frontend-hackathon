@@ -1,9 +1,9 @@
 import CalendarCard from "../../components/CalendarCard/CalendarCard";
 import FlightDurationCard from "../../components/FlightDurationCard/FlightDurationCard";
 import WeatherCard from "../../components/WeatherCard/WeatherCard";
-import "./ResultPage.scss";
+import "./FormPage.scss";
 
-export default function ResultPage() {
+export default function FormPage() {
   return (
     <div className="result">
       <div className="result__container">
