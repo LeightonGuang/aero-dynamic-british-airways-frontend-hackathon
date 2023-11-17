@@ -1,0 +1,17 @@
+.calendar {
+  background-color: #d9d9d9;
+  &__container {
+    padding: 1.19rem 0.69rem;
+  }
+
+  &__inputs-container {
+    display: flex;
+    gap: 0.81rem;
+  }
+
+  &__label {
+    line-height: 1.375rem;
+    font-weight: 600;
+    margin: 0.5rem;
+  }
+}
