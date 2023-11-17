@@ -2,6 +2,8 @@ import CalendarCard from "../../components/CalendarCard/CalendarCard";
 import FlightDurationCard from "../../components/FlightDurationCard/FlightDurationCard";
 import WeatherCard from "../../components/WeatherCard/WeatherCard";
 import "./FormPage.scss";
+import { Link } from "react-router-dom";
+import "../ProfilePage/ProfilePage.scss";
 
 export default function FormPage() {
   return (
@@ -19,6 +21,14 @@ export default function FormPage() {
         <div className="result__option-container">
           <FlightDurationCard />
           <WeatherCard />
+        </div>
+
+        <div>
+          <Link to="/results" className="profile__link">
+            <div className="profile__btn-container">
+              <button className="profile__btn">Find Me A Flight</button>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
