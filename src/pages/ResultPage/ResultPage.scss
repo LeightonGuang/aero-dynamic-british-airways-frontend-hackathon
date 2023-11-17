@@ -9,7 +9,8 @@
   //   margin-top: 3.6875rem;
 
   &__title {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
+    font-weight: 300;
     margin: 0;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
@@ -17,8 +18,9 @@
   }
 
   &__description {
-    font-size: 0.8125rem;
+    font-size: 0.9375rem;
     margin: 0;
+    margin-bottom: 1.5rem;
     color: #757575;
     font-weight: 300;
   }
