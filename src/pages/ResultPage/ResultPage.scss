@@ -11,12 +11,17 @@
     margin-bottom: 0.79rem;
   }
 
+  &__title-container {
+    margin-bottom: 2.39rem;
+  }
+
   &__title-description {
     color: #757575;
     // font-family: open sans;
     font-size: 0.9375rem;
     font-weight: 400;
     line-height: 1.375rem;
+    margin: 0;
   }
 
   &__option-container {
