@@ -1,3 +1,105 @@
 @use "../../styles/partials/mixins.scss" as *;
 @use "../../styles/partials/variables.scss" as *;
-@use "../../styles/partials/typography.scss";
+@use "../../styles/partials/typography.scss" as *;
+
+.profile {
+  &__container {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #2d5c98;
+  }
+  &__welcome {
+    font-size: 1.25rem;
+    color: $text-colour;
+  }
+
+  &__where {
+    color: $text-colour;
+  }
+
+  &__wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  &__voucher {
+    font-size: 1.625rem;
+    color: $text-colour;
+  }
+
+  &__passenger-info {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 0.8rem;
+  }
+
+  &__passenger-name {
+    margin-left: 0.5rem;
+  }
+
+  &__passenger-name,
+  &__voucher-value,
+  &__original-depature,
+  &__voucher-expiry,
+  &__voucher-number {
+    line-height: 0.5rem;
+  }
+
+  &__passenger-name,
+  &__original-depature,
+  &__voucher-expiry {
+    margin-bottom: 2rem;
+  }
+
+  &__original-depature {
+    margin-left: 0.5rem;
+    margin-top: -0.5rem;
+  }
+
+  &__passenger-details {
+    background-color: #ececed;
+    width: 21rem;
+    height: 17.5625rem;
+  }
+
+  &__voucher-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    gap: 2rem;
+  }
+
+  &__description {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  &__find {
+    color: #757575;
+    font-weight: 300;
+  }
+
+  &__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 2px 0px red;
+  }
+
+  &__btn {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: $button-primary-colour;
+    border: none;
+    font-weight: 400;
+    border: $button-primary-colour;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    &:hover {
+      background-color: $button-primary-hover-colour;
+    }
+  }
+}
