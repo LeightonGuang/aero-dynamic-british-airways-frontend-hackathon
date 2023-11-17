@@ -1,5 +1,8 @@
+@use "../partials/variables.scss" as *;
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  color: $text-colour;
 }

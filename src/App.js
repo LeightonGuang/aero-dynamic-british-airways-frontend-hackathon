@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import FormPage from "./pages/FormPage/FormPage";
 import TestPage from "./pages/TestPageAfterLanding/TestPage";
+import "./App.scss";
 
 export default function App() {
   return (
